@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
@@ -45,6 +44,6 @@ public partial class MainViewModel : ViewModelBase
 
     public MainViewModel()
     {
-        Task.Run(FillList);
+        FillList();
     }
 }
