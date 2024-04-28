@@ -1,3 +1,4 @@
+see https://github.com/AvaloniaUI/Avalonia/issues/15194
 ### Issue when scrolling a `ListBox`/`VirtualizingStackPanel` when hidden
 To replicate the issue:
 1. Click the `Scroll down` button to scroll down the listbox while it not visible
